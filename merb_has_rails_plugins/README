@@ -1,0 +1,8 @@
+merb_has_rails_plugins
+=================
+
+A plugin for the Merb framework that provides autoloading of Rails
+plugins from plugins/ dir.
+
+Please send bug reports to Michael Ivey directly for the time being:
+  ivey@gweezlebur.com or ivey on #merb
