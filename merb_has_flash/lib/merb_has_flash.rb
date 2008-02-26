@@ -8,7 +8,7 @@ require 'merb_has_flash/controller_extension'
 Merb::Controller.send :include, MerbHasFlash::ControllerExtension
 
 require 'merb_has_flash/helper'
-Merb::ViewContext.send :include, MerbHasFlash::FlashHelperMixin
+Merb::RenderMixin.send :include, MerbHasFlash::FlashHelperMixin
 
 module MerbHasFlash
   # The flash provides a way to pass temporary objects between actions. Anything you place in the flash will be exposed
