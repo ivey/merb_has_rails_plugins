@@ -11,9 +11,9 @@ Please send bug reports to Michael Ivey directly for the time being:
 Repo forked by fractious to provide configuration options:
 
 Merb::Plugins.config[:merb_has_rails_plugins]
-  :rails_env    - Rails environment - probably want to leave this as the default
-  :rails_root   - Path to your rails root
-  :plugins_root - Path to your rails plugins directory
-  :only         - Optional array of the subset of plugins you want to load i.e. ['acts_as_hasselhoff', 'foo_fu']
+ :rails_env    - Rails environment - probably want to leave this as the default: Merb.env
+ :rails_root   - Path to your rails root (you may want to set this if your running a merb app within a rails app)
+ :plugins_root - Path to your rails plugins directory. Defaults to Merb.root / 'plugins'
+ :only         - Optional array of the subset of plugins you want to load i.e. ['acts_as_hasselhoff', 'foo_fu']
 
 
