@@ -14,6 +14,6 @@ Merb::Plugins.config[:merb_has_rails_plugins]
   :rails_env    - Rails environment - probably want to leave this as the default
   :rails_root   - Path to your rails root
   :plugins_root - Path to your rails plugins directory
-  :only_plugins - Optional array of the subset of plugins you want to load i.e. ['acts_as_hasselhoff', 'foo_fu']
+  :only         - Optional array of the subset of plugins you want to load i.e. ['acts_as_hasselhoff', 'foo_fu']
 
 
