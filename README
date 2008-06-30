@@ -6,9 +6,10 @@ plugins from plugins/ dir.
 
 Please send bug reports to Michael Ivey directly for the time being:
   ivey@gweezlebur.com or ivey on #merb
+
   
----
-Repo forked by fractious to provide configuration options:
+Configuration
+=============
 
 Merb::Plugins.config[:merb_has_rails_plugins]
  :rails_env    - Rails environment - probably want to leave this as the default: Merb.env
@@ -17,3 +18,7 @@ Merb::Plugins.config[:merb_has_rails_plugins]
  :only         - Optional array of the subset of plugins you want to load i.e. ['acts_as_hasselhoff', 'foo_fu']
 
 
+Contributors
+============
+Shay Arnett
+James Bebbington
