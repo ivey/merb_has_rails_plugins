@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
   s.files = ["LICENSE", "Rakefile", "README", "TODO", "lib/merb_has_rails_plugins.rb"]
   s.test_files = []
-  s.add_dependency("merb", ["< 0.9.0"])
+  s.add_dependency("merb-core", ["> 0.9.0"])
 end
