@@ -25,8 +25,8 @@ if defined?(Merb::Plugins)
       plugin_init, plugin_lib = dir / 'init.rb', dir / 'lib'
      	if File.directory?(plugin_lib) 
      	  if defined?(ActiveSupport) 
-     	    Dependencies.load_paths << plugin_lib 
-     	    Dependencies.load_once_paths << plugin_lib 
+     	    ActiveSupport::Dependencies.load_paths << plugin_lib 
+     	    ActiveSupport::Dependencies.load_once_paths << plugin_lib 
         end
         $LOAD_PATH << plugin_lib
       end
