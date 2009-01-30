@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "merb_has_rails_plugins"
   s.author = "Michael D. Ivey"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
   s.platform = Gem::Platform::RUBY
   s.date = "2008-06-30"
   s.summary = "Merb plugin that provides autoloading of Rails plugins from plugins/ dir"
